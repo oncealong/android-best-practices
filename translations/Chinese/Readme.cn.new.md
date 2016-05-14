@@ -22,8 +22,10 @@
 17. [总是使用ProGuard或者DexGuard](#proguard-configuration)
 18. [使用SharedPreferences处理简单的数据持久化, 使用ContentProciders处理复杂的数据持久化](#data-storage)
 19. [使用Stetho调试你的程序. `(Stetho是Facebook出品的一个强大的Android调试工具，使用该工具你可以在Chrome Developer Tools查看App的布局，网络请求，sqlite，preference，一切都是可视化的操作，无须自己在去使用adb，也不需要root你的设备。)`](#use-stetho)
+
 ###Android SDK
 把你的Android SDK目录放在电脑的主目录或者其他跟IDE安装目录独立的磁盘位置，某些IDE在安装时就包含了Android SDK，而且可能把它放在跟IDE相同的目录下。当你需要升级（或重新安装）IDE，或者更换IDE时，这种做法是不好的。同样要避免把Android SDK放在另外一个系统层级的目录中，这样当你的IDE在user模式下运行而不是root模式时，将需要sudo权限。
+
 <a name="build-system"></a>
 ###构建系统
 你的默认选择应该是[Gradle](http://tools.android.com/tech-docs/new-build-system)。相比之下，Ant限制更大而且使用起来更繁琐。使用Gradle可以很简单的实现：
