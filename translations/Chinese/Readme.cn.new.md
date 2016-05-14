@@ -1,6 +1,7 @@
 > 原文链接：https://github.com/futurice/android-best-practices
 > 本文是Futurice公司的Android开发人员总结的最佳实践，遵循这些准则可以避免重复制造轮子。如果你对iOS或者WindowsPhone开发感兴趣，那么也请看看[iOS最佳实践](https://github.com/futurice/ios-good-practices)和[Windows客户端开发最佳实践](https://github.com/futurice/win-client-dev-good-practices)。
 > 第一版翻译自：http://blog.csdn.net/asce1885 Android开发技术日新月异, Github上也有较大更新, 故对原文有增删
+
 ###概要
 1. [使用Gradle和推荐的工程结构](#build-system)
 2. [把密码和敏感数据存放在gradle.properties文件中](#gradle-configuration)
